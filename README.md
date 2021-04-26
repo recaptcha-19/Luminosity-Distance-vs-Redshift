@@ -2,7 +2,7 @@
 
 This contains graphs of the variation of luminosity distance vs redshift for Type 1a supernovae for different cosmologies.
 
-#Introduction
+# Introduction
 
 Type 1a supernovae serve as one of the rungs of the cosmic distance ladder by which distances can be estimated to objects. They serve as standard candles since their intrinsic luminosity and light curves are nearly uniform for all supernovae (or can be corrected for). 
 
@@ -37,14 +37,14 @@ and ![](https://latex.codecogs.com/gif.latex?H%28z%29) and hence the comoving di
   <img src="https://latex.codecogs.com/gif.latex?d_L%20%3D%20%5Cfrac%7Bc%281&plus;z%29%7D%7BH_0%7D%20%5Cint_0%5Ez%20%5Cfrac%7Bdz%7D%7B%5Csqrt%7B%5COmega_%7Bm0%7D%281&plus;z%29%5E3%20&plus;%201%20-%20%5COmega_%7Bm0%7D%7D%7D" />
 </p>
 
-#Procedure and Data
+# Procedure and Data
 
 * The plot is obtained by assuming different values of ![](https://latex.codecogs.com/gif.latex?%5COmega_%7Bm0%7D), computing the luminosity distance and plotting it against the redshift of the said supernova. The [dataset](https://github.com/recaptcha-19/Luminosity-Distance-vs-Redshift/blob/master/SCPUnion2.1_mu_vs_z.txt) is obtained from the [Supernova Cosmology Project](http://www-supernova.lbl.gov/).
 
 * Different curves corresponding to different ![](https://latex.codecogs.com/gif.latex?%5COmega_%7Bm0%7D) are obtained. Check ```lum_distance_vs_z.py```.
 
-#Remarks
+# Remarks
 
-The plot assumes three different matter dominated cosmologies with a cosmological constant with arbitrary values of ![](https://latex.codecogs.com/gif.latex?%5COmega_%7Bm0%7D). Further scope would be to obtain a perfect value of ![](https://latex.codecogs.com/gif.latex?%5COmega_%7Bm0%7D) by performing regression and obtain the best estimate of the current cosmology and possibly the Hubble constant. 
+The plot assumes three different matter dominated cosmologies with a cosmological constant with arbitrary values of ![](https://latex.codecogs.com/gif.latex?%5COmega_%7Bm0%7D). Further scope would be to obtain a perfect value of ![](https://latex.codecogs.com/gif.latex?%5COmega_%7Bm0%7D) by performing regression and obtain the best estimate of the current cosmology and possibly the Hubble constant as well. 
 
 
